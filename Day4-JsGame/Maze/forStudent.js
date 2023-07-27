@@ -83,6 +83,11 @@ function initialize(){
 	cx = 0; cy = 1;
 	ctx.fillStyle = "red";
 	ctx.fillRect(cx*gs, cy*gs, gs, gs); // 맨 처음 빨간 점 위치
+	setTimeout(function() {
+		alert('You Lose!');
+		initialize();
+	  }, 15000);
+	  
 	
 }
 
@@ -256,4 +261,3 @@ function blockCheck(){
 	else
 		stucked = false;
 }
-
