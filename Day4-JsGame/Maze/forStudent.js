@@ -44,7 +44,6 @@ function enterkey() {
 
 	if(sizeInput%2 ==1){
 		tc=sizeInput;
-		gs=sizeInput-1;
 		initialize();
 	}
 	// 여기에 채워넣어 코드를 완성하세요!
